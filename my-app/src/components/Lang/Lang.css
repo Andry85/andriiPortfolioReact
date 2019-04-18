@@ -1,0 +1,6 @@
+﻿.lang-list {
+	display: flex;
+}
+.lang-list__item {
+	margin: 0 0 0 10px;
+}

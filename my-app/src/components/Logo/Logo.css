@@ -1,0 +1,13 @@
+﻿.logo {
+	background: #250168;
+	width: 7rem;
+	height: 7rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo__name {
+	font-family: 'Proxima Nova Cn Bl';
+	font-size: 5.6rem;
+	color: #fff;
+}

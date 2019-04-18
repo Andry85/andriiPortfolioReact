@@ -1,0 +1,17 @@
+﻿.about {
+	
+}
+.about__subtitle {
+	text-align: center;
+	font-family: 'Proxima Nova Cn Rg';
+	text-transform: uppercase;
+	max-width: 450px;
+	margin: 0 auto;
+}
+.about__text {
+	text-align: center;
+	max-width: 450px;
+	margin: 0 auto;
+	padding: 1.3rem 0 0 0;
+	line-height: 1.8;
+}

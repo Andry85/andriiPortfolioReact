@@ -1,0 +1,49 @@
+﻿.header {
+	background: #FCFBFB;
+	min-height: 707px;
+	position: relative;
+}
+.header__top {
+	display: flex;
+	justify-content: space-between;
+	padding: 4.6rem 0 0 0;
+	align-items: center;
+}
+.header__avatar {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.header__desc {
+	padding: 12rem 0 0 31.5rem;
+}
+.header__cong {
+	font-family: 'Proxima Nova Lt';
+	font-size: 2.4rem;
+	display: inline-block;
+	border-bottom: 1px solid #000;
+	text-transform: uppercase;
+	line-height: 1.0;
+}
+.header__present {
+	font-size: 8.8rem;
+	text-transform: uppercase;
+	line-height: 1.0;
+	padding: 4rem 0 0 0;
+}
+.header__title {
+	font-size: 8.8rem;
+	text-transform: uppercase;
+	color: #250168;
+	max-width: 50rem;
+	line-height: 1.0;
+	font-family: 'Proxima Nova Rg';
+}
+.header__position {
+	font-family: 'Proxima Nova Cn Rg';
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	margin-top: -0.3rem;
+	font-weight: normal;
+
+}
