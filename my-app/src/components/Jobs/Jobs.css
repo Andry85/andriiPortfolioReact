@@ -1,0 +1,18 @@
+﻿.jobs-list {
+
+}
+.jobs-list__item {
+    padding: 0.5rem 0 0.5rem 0;
+}
+.jobs-list__time {
+	font-family: 'Proxima Nova Cn Rg';
+}
+.jobs-list__company {
+	color: #250168;
+	font-family: 'Proxima Nova Cn Rg';
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+.jobs-list__position {
+	margin-top: 0;
+}

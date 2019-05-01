@@ -1,7 +1,6 @@
 ﻿import React, { Component } from 'react';
 import './Header.css'; // Tell Webpack that Button.js uses these styles
 import Logo from '../Logo/Logo';
-import Lang from '../Lang/Lang';
 import avatar from './img/avatar.png';
 
 class Header extends Component {
@@ -13,7 +12,6 @@ class Header extends Component {
     		<div className="inner">
     			<div className="header__top">	
 	    			<Logo />
-	    			<Lang />
 				</div>
 				<div className="header__desc">	
 	    			<div className="header__cong">HELLO</div>

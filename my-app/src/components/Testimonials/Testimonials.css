@@ -1,0 +1,68 @@
+﻿.testimonials {
+   
+}
+
+.testimonials__subtitle {
+	text-align: center;
+	font-family: 'Proxima Nova Cn Rg';
+    text-transform: uppercase;
+    margin: 5.3rem 0 4.2rem 0;
+}
+
+.testimonials__slider {
+    max-width: 820px;
+    background: #FCFBFB;
+    margin: 0 auto;
+    position: relative;
+}
+
+.testimonials__item {
+    text-align: center;
+    padding: 8rem 0 8rem 0;
+    min-height: 378px;
+}
+.testimonials__pic {
+    width: 83px;
+    height: 83px;
+    margin: 0 auto;
+}
+.testimonials__text {
+    padding: 2.4rem 0 0 0;
+}
+.testimonials__author {
+    font-family: 'Proxima Nova Rg';
+    font-size: 1.6rem;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 1.1rem 0 0 0;
+}
+
+
+.testimonials__slider .slick-prev,
+.testimonials__slider .slick-prev:hover,
+.testimonials__slider .slick-prev:focus
+ {
+    background: url(./img/arrow.svg) no-repeat;
+    width: 34px;
+    height: 34px;
+    background-size: 34px 34px;
+    left: -111px;
+}
+.testimonials__slider .slick-prev:before {
+    display: none;
+}
+
+.testimonials__slider .slick-next,
+.testimonials__slider .slick-next:hover,
+.testimonials__slider .slick-next:focus
+ {
+    background: url(./img/arrow.svg) no-repeat;
+    width: 34px;
+    height: 34px;
+    background-size: 34px 34px;
+    right: -111px;
+    transform: rotate(-180deg)
+}
+.testimonials__slider .slick-next:before {
+    display: none;
+}

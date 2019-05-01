@@ -1,0 +1,42 @@
+﻿.portfolio {
+	
+}
+.portfolio__subtitle {
+	text-align: center;
+	font-family: 'Proxima Nova Cn Rg';
+    text-transform: uppercase;
+    margin: 12rem 0 3.3rem 0;
+}
+
+.portfolioItem {
+    flex-basis: 33.3%;
+    padding: 0 15px;
+    text-align: center;
+    margin: 0 0 5.8rem 0;
+    
+}
+.portfolioItem__pic {
+
+}
+.portfolioItem__pic a {
+    display: block;
+}
+.portfolioItem__pic a img {
+    border: 1px solid #A09F9F;
+}
+.portfolioItem__cat {
+    font-size: 1.6rem;
+    color: #A09F9F;
+    display: block;
+    padding: 2.3rem 0 0 0;
+}
+.portfolioItem__name {
+    font-family: 'Proxima Nova Rg';
+    font-size: 1.8rem;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0.5rem 0 0 0;
+}
+.portfolioItem__name a {
+    color: #000;
+}
