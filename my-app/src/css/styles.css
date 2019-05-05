@@ -541,4 +541,7 @@ body {
 
 .content {
 	padding: 11.1rem 0 0 0;
+} 
+.breakBlock {
+	min-height: 14.8rem;
 }

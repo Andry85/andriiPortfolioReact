@@ -1,0 +1,21 @@
+﻿.clients {
+	background: #250168;
+}
+.clients__subtitle {
+	text-align: center;
+	font-family: 'Proxima Nova Cn Rg';
+	text-transform: uppercase;
+	max-width: 450px;
+	margin: 0 auto;
+	color: #fff;
+	padding: 6.8rem 0 2.8rem 0;
+}
+.clientsList {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0 0 8.5rem 0;
+}
+.clientsLis__item {
+	margin: 0 14px 14px 14px;
+}
