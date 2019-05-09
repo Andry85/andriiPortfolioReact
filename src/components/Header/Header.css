@@ -2,6 +2,7 @@
 	background: #FCFBFB;
 	min-height: 707px;
 	position: relative;
+	overflow: hidden;
 }
 .header__top {
 	display: flex;
@@ -13,7 +14,10 @@
 	position: absolute;
 	right: 13%;
 	bottom: 0;
+	animation: moveavatar 5s linear 2s infinite alternate;
 }
+
+
 .header__desc {
 	padding: 12rem 0 0 31.5rem;
 }
@@ -90,3 +94,12 @@
 		font-size: 5rem;
 	}
 }
+
+@keyframes moveavatar {
+	from {
+		transform: translateY(0);
+	}
+	to {
+		transform: translateY(5%);
+	}
+  }

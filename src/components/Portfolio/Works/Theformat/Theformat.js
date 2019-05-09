@@ -4,7 +4,7 @@ import pic from './img/001.jpg';
 
 
 const info = {
-    name: 'Magisoft',
+    name: 'The Format',
     category: 'Web design',
     pic: pic,
     task: 'Create design for an amazing studio of painting which teaches people drawing.',
