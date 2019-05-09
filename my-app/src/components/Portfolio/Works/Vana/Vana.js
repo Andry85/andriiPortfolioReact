@@ -4,7 +4,7 @@ import pic from './img/001.jpg';
 
 
 const info = {
-    name: 'The Format',
+    name: 'Vana',
     category: 'Front-end',
     pic: pic,
     task: 'Task: Create responsive layout from PSD.',
@@ -12,29 +12,39 @@ const info = {
       'Type: adaptive',
       'Task manager: Gulp',
       'Sprites: PNG',
-      'Technologies: SASS, BEM, Flexbox',
+      'Technologies: SASS, Flexbox',
       'Cross-browser compatibility: IE10 +, Chrome, Firefox, Opera, Safari'
     ],
     visits: [
       {
         id: 0,
-        anchor: '#',
-        title: 'Index page'
+        anchor: 'http://en.dyadya-vanya.ru/',
+        title: 'Index'
       },
       {
         id: 1,
-        anchor: '#',
-        title: 'Shop page'
+        anchor: 'http://en.dyadya-vanya.ru/products',
+        title: 'Catalog'
       },
       {
-        id: 1,
-        anchor: '#',
-        title: 'Catalog page'
+        id: 2,
+        anchor: 'http://en.dyadya-vanya.ru/news',
+        title: 'News'
+      },
+      {
+        id: 3,
+        anchor: 'http://en.dyadya-vanya.ru/recipes',
+        title: 'Recipes'
+      },
+      {
+        id: 4,
+        anchor: 'http://en.dyadya-vanya.ru/brand',
+        title: 'OUR BRAND'
       }
     ]
   };
 
-class Work_2 extends Component {
+class Work_1 extends Component {
   render() {
     return (
       <div>
@@ -44,4 +54,4 @@ class Work_2 extends Component {
   }
 }
 
-export default Work_2;
+export default Work_1;

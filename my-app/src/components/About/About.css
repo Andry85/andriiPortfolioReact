@@ -15,3 +15,21 @@
 	padding: 1.3rem 0 0 0;
 	line-height: 1.8;
 }
+
+
+@media screen and (max-width: 991px) {
+	.about__subtitle {
+		padding-left: 1rem;
+		padding-right: 1rem;
+		font-size: 4rem;
+	}
+	.about__text {
+		padding-left: 1rem;
+		padding-right: 1rem;
+		margin-bottom: 6rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	
+}

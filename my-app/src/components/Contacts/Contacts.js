@@ -13,13 +13,13 @@ class Contacts extends Component {
             <div className="contacts__phone">+38 (068) - 328 - 85 - 41</div>
             <ul className="socialList">
               <li className="socialList__item">
-                <a className="socialList__link socialList__link--fb" href="https://www.facebook.com/profile.php?id=100000914987526" target="_blank"></a>
+                <a className="socialList__link socialList__link--fb" href="https://www.facebook.com/profile.php?id=100000914987526" target="_blank" rel="noopener noreferrer">&nbsp;</a>
               </li>
               <li className="socialList__item">
-                <a className="socialList__link socialList__link--linkedin" href="https://www.linkedin.com/in/andrii-shapoval/" target="_blank"></a>
+                <a className="socialList__link socialList__link--linkedin" href="https://www.linkedin.com/in/andrii-shapoval/" target="_blank" rel="noopener noreferrer">&nbsp;</a>
               </li>
               <li className="socialList__item">
-                <a className="socialList__link socialList__link--behance" href="https://www.behance.net/shapovala85e0" target="_blank"></a>
+                <a className="socialList__link socialList__link--behance" href="https://www.behance.net/shapovala85e0" target="_blank" rel="noopener noreferrer">&nbsp;</a>
               </li>
             </ul>
           </div>

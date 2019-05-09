@@ -20,7 +20,7 @@ class Home extends Component {
             <About/>
             <Experience />
             <Portfolio/>
-            <Testimonials/>
+            <Testimonials />
           </div>
           <div className="breakBlock"></div>
           <Clients/>

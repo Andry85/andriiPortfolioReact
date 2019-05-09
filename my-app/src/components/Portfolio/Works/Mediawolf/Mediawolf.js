@@ -4,7 +4,7 @@ import pic from './img/001.jpg';
 
 
 const info = {
-    name: 'Vana',
+    name: 'Mediawolf',
     category: 'Front-end',
     pic: pic,
     task: 'Task: Create responsive layout from PSD.',
@@ -12,29 +12,19 @@ const info = {
       'Type: adaptive',
       'Task manager: Gulp',
       'Sprites: PNG',
-      'Technologies: SASS, BEM, Flexbox',
-      'Cross-browser compatibility: IE10 +, Chrome, Firefox, Opera, Safari'
+      'Technologies: SASS, Flexbox',
+      'Cross-browser compatibility: IE9 +, Chrome, Firefox, Opera, Safari'
     ],
     visits: [
       {
         id: 0,
-        anchor: '#',
-        title: 'Index page'
-      },
-      {
-        id: 1,
-        anchor: '#',
-        title: 'Shop page'
-      },
-      {
-        id: 1,
-        anchor: '#',
-        title: 'Catalog page'
+        anchor: 'https://andry85.github.io/portfolio/progect0/',
+        title: 'Index'
       }
     ]
   };
 
-class Work_1 extends Component {
+class Mediawolf extends Component {
   render() {
     return (
       <div>
@@ -44,4 +34,4 @@ class Work_1 extends Component {
   }
 }
 
-export default Work_1;
+export default Mediawolf;

@@ -7,6 +7,7 @@
   padding: 0 0 4.7rem 0;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .react-tabs__tab {
@@ -50,4 +51,15 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 -15px;
+}
+
+@media screen and (max-width: 767px) {
+	.react-tabs__tab {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    width: 50%;
+  }
+  .react-tabs__tab-list {
+    justify-content: flex-start;
+  }
 }

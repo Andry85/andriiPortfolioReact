@@ -1,6 +1,7 @@
 ﻿.experience {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .experience__col {
 	flex-basis: 31.25%;
@@ -16,18 +17,20 @@
 	overflow-y: scroll;
 	position: relative;
 }
-/* .experience__scrollPanel {
-	background: #FCFBFB;
-	width: 0.7rem;
-	height: 100%;
-	border-radius: 0.35rem;
-	position: absolute;
-	right: 0;
-	top: 0;
+
+@media screen and (max-width: 991px) {
+	.experience__col {
+		flex-basis: 50%;
+		padding: 0 1rem;
+		margin-bottom: 2rem;
+	}
+	.experience__title {
+		font-size: 2.6rem;
+	}
 }
-.experience__scroll {
-	background: #D9D9D9;
-	width: 100%;
-	border-radius: 0.35rem;
-	position: absolute;
-} */
+
+@media screen and (max-width: 767px) {
+	.experience__col {
+		flex-basis: 100%;
+	}
+}

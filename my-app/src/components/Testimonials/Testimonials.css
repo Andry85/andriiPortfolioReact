@@ -27,7 +27,7 @@
     margin: 0 auto;
 }
 .testimonials__text {
-    padding: 2.4rem 0 0 0;
+    padding: 2.4rem 1.5rem 0 1.5rem;
 }
 .testimonials__author {
     font-family: 'Proxima Nova Rg';
@@ -65,4 +65,60 @@
 }
 .testimonials__slider .slick-next:before {
     display: none;
+}
+
+@media screen and (max-width: 1199px) {
+	.testimonials__slider .slick-prev,
+    .testimonials__slider .slick-prev:hover,
+    .testimonials__slider .slick-prev:focus {
+        left: -45px;
+    }
+    .testimonials__slider .slick-next,
+    .testimonials__slider .slick-next:hover,
+    .testimonials__slider .slick-next:focus {
+        right: -45px;
+    }
+
+}
+@media screen and (max-width: 991px) {
+
+    .testimonials__slider .slick-prev,
+    .testimonials__slider .slick-prev:hover,
+    .testimonials__slider .slick-prev:focus {
+        left: 25px;
+    }
+    .testimonials__slider .slick-next,
+    .testimonials__slider .slick-next:hover,
+    .testimonials__slider .slick-next:focus {
+        right: 25px;
+    }
+    .testimonials__item {
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+    .testimonials__subtitle {
+        margin: 3rem 0 .5rem 0;
+        font-size: 4rem;
+    }
+	
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .testimonials__slider .slick-prev,
+    .testimonials__slider .slick-prev:hover,
+    .testimonials__slider .slick-prev:focus {
+        left: 10px;
+    }
+    .testimonials__slider .slick-next,
+    .testimonials__slider .slick-next:hover,
+    .testimonials__slider .slick-next:focus {
+        right: 10px;
+    }
+    .testimonials__item {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+	
 }

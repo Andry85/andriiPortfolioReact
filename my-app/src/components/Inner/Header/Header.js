@@ -1,5 +1,5 @@
 ﻿import React, { Component } from 'react';
-import './Header.css'; // Tell Webpack that Button.js uses these styles
+import './Header.css';
 import Logo from '../../Logo/Logo';
 
 class Header extends Component {

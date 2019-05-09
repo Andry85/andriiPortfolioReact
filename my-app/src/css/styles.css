@@ -545,3 +545,30 @@ body {
 .breakBlock {
 	min-height: 14.8rem;
 }
+
+
+@media screen and (max-width: 1240px) {
+	.inner {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+
+@media screen and (max-width: 991px) {
+	.content {
+		padding: 5rem 0 0 0;
+	} 
+	.breakBlock {
+		min-height: 4.8rem;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.content {
+		padding: 2rem 0 0 0;
+	} 
+	.breakBlock {
+		min-height: 2.8rem;
+	}
+}

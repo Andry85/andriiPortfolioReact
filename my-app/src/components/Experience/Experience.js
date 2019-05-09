@@ -3,7 +3,7 @@ import './Experience.css'; // Tell Webpack that Button.js uses these styles
 import Jobs from '../Jobs/Jobs';
 import Skills from '../Skills/Skills';
 
-const experienceText = "I create web design, mobile app design. I can convert your web design into valid HTML5 and CSS3. Have experience of work with technologies: HTML5, CSS3, SASS, Javascript(jQuery, ReactJS), Wordpress, Twitter Bootstrap. I work with Figma, Adobe Photoshop, Adobe Illustrator.";
+const experienceText = "I create web design, mobile app design, work with Figma, Adobe Photoshop, Adobe Illustrator. I can convert your web design into valid HTML5 and CSS3. Have experience of work with technologies: HTML5, CSS3, SASS, Javascript(jQuery, ReactJS), Wordpress, Twitter Bootstrap.";
 
 class Experience extends Component {
   render() {

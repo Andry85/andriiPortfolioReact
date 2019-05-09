@@ -23,6 +23,8 @@
 }
 .portfolioItem__pic a img {
     border: 1px solid #A09F9F;
+    height: 30rem;
+    object-fit: contain; 
 }
 .portfolioItem__cat {
     font-size: 1.6rem;
@@ -39,4 +41,27 @@
 }
 .portfolioItem__name a {
     color: #000;
+}
+
+@media screen and (max-width: 1199px) {
+	.portfolio__subtitle {
+        margin: 6rem 0 1.3rem 0;
+    }
+}
+
+@media screen and (max-width: 991px) {
+	.portfolio__subtitle {
+        margin: 3rem 0 .5rem 0;
+        font-size: 4rem;
+    }
+    .portfolioItem {
+        flex-basis: 50%;
+        margin-bottom: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+	.portfolioItem__pic a img {
+        height: 15rem;
+    }
 }

@@ -8,3 +8,10 @@
 	padding: 6.1rem 0;
 	margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+	.footer__text {
+		padding: 3rem 1rem;
+	}
+}
+

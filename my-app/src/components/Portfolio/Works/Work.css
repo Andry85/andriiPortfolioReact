@@ -28,8 +28,12 @@
 .work__pic {
     padding: 4.8rem 0 0 0;
 }
+.work__pic img {
+    border: 1px solid #A09F9F;
+}
 .work__task {
     padding: 6.9rem 0 3rem 0;
+    max-width: 50rem;
 }
 .solutions-list {
 
@@ -65,4 +69,25 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
+}
+
+@media screen and (max-width: 991px) {
+	.work {
+        padding: 4rem 6rem 4rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+	.work {
+        padding: 0 1rem 3rem 1rem;
+    }
+    .work__name {
+        padding: 2rem 0 0 0;
+    }
+    .work__pic {
+        padding: 1.5rem 0 0 0;
+    }
+    .work__task {
+        padding: 2.5rem 0;
+    }
 }

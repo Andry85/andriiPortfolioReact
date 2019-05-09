@@ -11,7 +11,7 @@
 }
 .header__avatar {
 	position: absolute;
-	right: 0;
+	right: 13%;
 	bottom: 0;
 }
 .header__desc {
@@ -46,4 +46,47 @@
 	margin-top: -0.3rem;
 	font-weight: normal;
 
+}
+
+@media screen and (max-width: 1439px) {
+	.header__avatar {
+		right: 3%;
+	}
+
+}
+
+@media screen and (max-width: 1199px) {
+	.header__desc {
+		padding: 6rem 0 0 15rem;
+	}
+	
+	.header {
+		min-height: 650px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.header__desc {
+		padding: 3rem 0 0 8rem;
+	}
+	.header {
+		min-height: 550px;
+	}
+	.header__avatar {
+		max-height: 85vh;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header__desc {
+		padding: 3rem 0 0 0;
+	}
+	.header__avatar {
+		display: none
+	}
+	.header__present {
+		font-size: 5rem;
+	}
+	.header__title {
+		font-size: 5rem;
+	}
 }
