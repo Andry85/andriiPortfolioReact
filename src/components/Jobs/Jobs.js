@@ -6,7 +6,7 @@ import './Jobs.css'; // Tell Webpack that Button.js uses these styles
 const jobs = [
 	{
 		id: 1,
-		time: '11.2018 – present time',
+		time: '11.2018 – 05.2019',
 		company: 'Magisale Inc',
 		position: 'Front-end Developer and UI/UX Designer'
 	},
